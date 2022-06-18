@@ -1,0 +1,93 @@
+body {
+  background-image: url(/images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  font-size: 16px;
+  margin-top: 75px;
+}
+
+main {
+  display: inline-flex;
+}
+
+.word {
+  width: 300px;
+  position: absolute;
+  left: 160px;
+  top: 190px;
+}
+
+h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: white;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-field {
+  position: absolute;
+  right: 120px;
+}
+
+button {
+  padding: 15px 30px;
+  margin: 16px auto;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 0;
+  width: 50%;
+}
+
+.btn2 {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  width: 400px;
+}
+.btn1 {
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  width: 450px;
+}
+
+.form {
+  width: 450px;
+  background-color: white;
+  padding: 15px 0 30px 0;
+  border-radius: 5px;
+}
+
+.form-text {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 400px;
+  margin: 16px auto;
+  padding: 12px 25px;
+  border: 1px hsl(246, 25%, 77%) solid;
+}
+
+.tandc {
+  color: rgb(212, 212, 212);
+  text-align: center;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.tandc strong {
+  color: rgba(255, 0, 0, 0.571);
+}
+
+.form-text input:-webkit-validation-bubble {
+  background: url(/images/icon-error.svg);
+}
+
+input:not(:placeholder-shown) {
+    border-color: red;
+}
+@media () {
+
+}
